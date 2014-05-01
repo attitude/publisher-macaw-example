@@ -1,0 +1,232 @@
+---
+################################################################################
+#
+# COLLECTIONS
+#
+################################################################################
+_id: homepage
+_type: collection
+route: /
+template: homepage
+title:
+    sk_SK: Macaw + Publisher Demo: Intuitívy nástroj na web dizajn bez kódovania
+    en_EN: Macaw + Publisher Demo: The Code-Savvy Web Design Tool
+nowAvailableNotice:
+    sk_SK: Demo dynamickej webstránky pomocou <a href="http://macaw.co">Macaw</a> a <a href="https://github.com/attitude/publisher">Publisher-a</a> 
+    en_EN: Demo of a dynamic website using <a href="http://macaw.co">Macaw</a> and <a href="https://github.com/attitude/publisher">Publisher</a>
+hero:
+    headline:
+        sk_SK: Prestaňte písať kód, začnite ho kresliť.
+        en_EN: Stop writing code, start drawing it.
+    subheadline:
+        sk_SK: Macaw poskytuje rovnakú flexibility ako váš obľúbený fotoeditor, ale takisto produkuje sémantické HTML a pozoruhodne stručné CSS. Je na čase, aby ste očakávali viac od svojho nástroja na tvorbu webov.
+        en_EN: Macaw provides the same flexibility as your favorite image editor but also writes semantic HTML and remarkably succinct CSS. It's time to expect more from a web design tool.
+testimonial:
+    quote:
+        sk_SK: Neodolateľný webový nástroj budúcnosti.
+        en_EN: The superhot web design tool of the future.
+    by:
+        sk_SK: Jeffrey Zeldman, Founder of Happy Cog
+        en_EN: Jeffrey Zeldman, zakladateľ Happy Cog
+features:
+    line:
+        sk_SK: Vytvorený pre dnešných webových dizajnérov
+        en_EN: Built for today's web designer
+    featureList:
+        -
+            src: /images/responsive-icon.png
+            name:
+                sk_SK: Responsivita
+                en_EN: Responsive
+            text:
+                sk_SK: Nastavte breakpointy a optimalizujte stránky pre všetky zariadenia.
+                en_EN: Set breakpoints and optimize your site for all devices.
+        -
+            src: /images/type-icon.png
+            name:
+                sk_SK: Typografia
+                en_EN: Typography
+            text:
+                sk_SK: Použite online písma alebo systémové, ako nikdy predtým.
+                en_EN: Pull in web fonts or use system fonts like never before.
+        -
+            src: /images/stamp-icon.png
+            name:
+                sk_SK: Globálne štýly
+                en_EN: Global Styles
+            text:
+                sk_SK: Použite štýl na viac prvkov a upravujte ho na jedinom mieste.
+                en_EN: Apply a style to multiple elements and modify it in one location.
+        -
+            src: /images/remote-icon.png
+            name:
+                sk_SK: Vzdialený náhľad
+                en_EN: Remote Preview
+            text:
+                sk_SK: Prezerajte si dizajn na akomkoľvek zariadení v sieti.
+                en_EN: Broadcast your design to any device on the network.
+        -
+            src: /images/interactive-icon.png
+            name:
+                sk_SK: Interaktivita
+                en_EN: Interactive
+            text:
+                sk_SK: Nastavte názvy premenných a pridajte skripty pre rýchle prototypovanie.
+                en_EN: Set variable names and add scripts for fast prototyping.
+        -
+            src: /images/page-icon.png
+            name:
+                sk_SK: Stránky
+                en_EN: Pages
+            text:
+                sk_SK: Zdieľajte podklady medzi stránkami a majte ich uložené všetky v jednom dokumente.
+                en_EN: Share assets between pages and save them all in one document.
+        -
+            src: /images/positioning-icon.png
+            name:
+                sk_SK: Umiestnenie
+                en_EN: Positioning
+            text:
+                sk_SK: Využite statické, absolútne a fixné umiestnenie pre flexibilné rozmiestnenie.
+                en_EN: Utilize static, absolute and fixed positioning for dynamic layouts.
+        -
+            src: /images/components-icon.png
+            name:
+                sk_SK: Komponenty
+                en_EN: Components
+            text:
+                sk_SK: Uložte si prvky do knižnice, a znovu ich použite na akejkoľvek stránke.
+                en_EN: Store elements in your library and reuse them on any page.
+engines:
+    stream:
+        name:
+            sk_SK: Stream
+            en_EN: Stream
+        src: /images/stream-black.png
+        short:
+            sk_SK: Vykresľovanie fluidného layoutu v reálnom čase
+            en_EN: Real-time, fluid layout engine
+        text:
+            sk_SK: |
+                Prostredie Macaw poháňa engine nazvaný Stream.
+                Dovoľuje manipulovať elementmi v reálnom čase spôsobom
+                ako je to u obrazových editorov ako Adobe Photoshop.
+                Na pozadí Stream vypočíta všetko potrebné
+                (floaty, clear, odsadenie, atď.) na umiestnenie elementu
+                do statického toku dokumentu tak, ako by to bol spravil
+                skúsený vývojár. Dni boja s logikou layoutu sa skončili.
+            en_EN: Macaw’s design environment is powered by a real-time layout engine called Stream, which allows elements to be manipulated in a manner similar to image editors like Adobe’s Photoshop. Behind the scenes, Stream calculates all of the properties necessary (floats, clears, margins, etc) to place the elements into a static document flow just as a seasoned developer would. The days of fighting layout logic are over.
+        testimonial:
+            quote:
+                sk_SK: Toto by mohol byť začiatok konca programovania.
+                en_EN: This could be the beginning of the end of coding.
+            by:
+                sk_SK: —Paul Boag, moderátor Boagworld Podcast
+                en_EN: —Paul Boag, Host of Boagworld Podcast
+    alchemy:
+        name:
+            sk_SK: Alchemy
+            en_EN: Alchemy
+        src: /images/alchemy-black.png
+        short:
+            sk_SK: Vykresľovanie fluidného layoutu v reálnom čase
+            en_EN: Real-time, fluid layout engine
+        text:
+            sk_SK: |
+                Preklopenie dizajnu do použiteľného HTML a CSS sa dlho
+                považovalo nemožné. Nech už je to akokoľvek, Macaw využíva
+                výkonný konvertor dizajnu do kódu - Alchemy - popiera toto tvrdnie.
+                Bol navrhnutý od základov na základe skúseností z praxe
+                spoločne nadobudnutých, ktoré sú tak intuitívne na používanie,
+                že vytvoríte krásny, sémantický kód ani neviete ako
+            en_EN: "Converting a design into usable HTML and CSS has long been considered impossible. However, Macaw’s powerful design-to-code engine - Alchemy - is changing that perception. It was built from the ground up on a foundation of best-practices collected from the community and is so intuitive to use you might accidentally write beautiful, semantic code."
+        testimonial:
+            quote:
+                sk_SK: 'Neviem, čo za čary to používate na vyprodukovanie toho kódu, ale je to úžasné a krásne.'
+                en_EN: "I dunno what sorcery they're using to make the code, but it's amazing and beautiful."
+            by:
+                sk_SK: —Mike Finch, produktový dizajnér Facebook-u
+                en_EN: —Mike Finch, Product Designer at Facebook
+team:
+    -
+            name:
+                sk_SK: Danny Kleinman
+                en_EN: Danny Kleinman
+            role:
+                sk_SK: Vývojár Windows
+                en_EN: Windows Engineer
+            url: http://twitter.com/megapixel
+            handle: @megapixel
+    -
+            name:
+                sk_SK: Brandon Jones
+                en_EN: Brandon Jones
+            role:
+                sk_SK: Vývojár OSX
+                en_EN: OSX Engineer
+            url: http://twitter.com/btj
+            handle: @btj
+    -
+            name:
+                sk_SK: Tom Giannattasio
+                en_EN: Tom Giannattasio
+            role:
+                sk_SK: Zakladateľ/CEO
+                en_EN: Founder/CEO
+            url: http://twitter.com/attasi
+            handle: @attasi
+    -
+            name:
+                sk_SK: Adam Christ
+                en_EN: Adam Christ
+            role:
+                sk_SK: Spoluzakladateľ/Vývojár JS
+                en_EN: Cofounder/JS Engineer
+            url: http://twitter.com/gesusc
+            handle: @gesusc
+footer:
+    nav:
+      -
+          url: http://secure.macaw.co?utm_source=publisher-demo&utm_medium=website&utm_term=martin-adamko&utm_campaign=publisher
+          text:
+              sk_SK: Obchod
+              en_EN: Store
+      -
+          url: http://forum.macaw.co
+          text:
+              sk_SK: Fórum
+              en_EN: Forums
+      -
+          url: http://macaw.co/videos
+          text:
+              sk_SK: Videá
+              en_EN: Videos
+
+languages:
+    query(): {_type: language, published: true }
+copyrightYear: { copyrightYear(): {since: 2013}}
+tracking: UA-48483314-1
+...
+---
+################################################################################
+#
+# LANGUAGES
+#
+################################################################################
+
+_id: sk_SK
+_type: language
+_collection: languages
+name: Slovenčina
+code: sk
+published: true
+default: true
+...
+---
+_id: en_EN
+_type: language
+_collection: languages
+name: English
+code: en
+published: true
+...
